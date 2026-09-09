@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marimar Situmeang | Mahasiswa Ilmu Komputer</title>
+<meta name="description" content="Landing page pribadi Marimar Situmeang, mahasiswa Ilmu Komputer Universitas Negeri Medan yang tertarik pada pemrograman, teknologi, dan kreativitas digital.">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Marimar Situmeang | Mahasiswa Ilmu Komputer">
+<meta property="og:description" content="Mahasiswa Ilmu Komputer UNIMED yang sedang membangun kemampuan programming dari dasar, minat pada teknologi dan pengembangan diri.">
+<meta property="og:image" content="gambar/fto ku.jpeg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <p><strong>Marimar Situmeang</strong> &mdash; Mahasiswa Ilmu Komputer</p>
+  <nav aria-label="Navigasi utama">
+    <ul>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#pendidikan">Pendidikan</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section id="beranda" aria-label="Perkenalan">
+    <h1>Halo, saya Marimar Situmeang</h1>
+    <p>Mahasiswa Ilmu Komputer di Universitas Negeri Medan yang sedang membangun kemampuan pemrograman dari dasar &mdash; dengan minat besar pada teknologi, kreativitas, dan pengembangan diri.</p>
+    <p><a href="#kontak">Hubungi Saya</a></p>
+  </section>
+
+  <section id="tentang" aria-labelledby="tentang-heading">
+    <h2 id="tentang-heading">Tentang Saya</h2>
+
+    <figure>
+      <img src="gambar/fto-ku.jpeg" alt="Foto Marimar Situmeang">
+      <figcaption>Marimar Situmeang &mdash; Mahasiswa Ilmu Komputer</figcaption>
+    </figure>
+
+    <article>
+      <h3>Profil Singkat</h3>
+      <p>Saya <strong>Marimar Situmeang</strong>, kuliah di <strong>Universitas Negeri Medan</strong> pada program studi <strong>Ilmu Komputer</strong>.</p>
+      <p>Saya adalah mahasiswa Ilmu Komputer yang memiliki ketertarikan pada teknologi, kreativitas, dan pengembangan diri. Saya senang mempelajari hal-hal baru, khususnya yang berkaitan dengan komputer, pemrograman, pembuatan konten, dan penerapan teknologi dalam kehidupan sehari-hari.</p>
+      <p>Saat ini saya sedang mengembangkan kemampuan di bidang teknologi dan pemrograman dari dasar. Tujuan saya adalah terus belajar, meningkatkan keterampilan, memperoleh pengalaman, dan menjadi pribadi yang mampu menciptakan solusi serta karya yang bermanfaat melalui teknologi.</p>
+    </article>
+
+    <aside aria-label="Fakta cepat">
+      <h3>Fakta Cepat</h3>
+      <ul>
+        <li>Program studi: Ilmu Komputer, Universitas Negeri Medan</li>
+        <li>Bahasa pemrograman yang sedang dipelajari: C++</li>
+        <li>Aktif belajar sejak <time datetime="2025">2025</time></li>
+        <li>Fokus saat ini: dasar-dasar pemrograman &amp; pengembangan web</li>
+        <li>Website ini dibuat pada <time datetime="2026-08-23">23 Agustus 2026</time></li>
+      </ul>
+    </aside>
+  </section>
+
+  <section id="keahlian" aria-labelledby="keahlian-heading">
+    <h2 id="keahlian-heading">Keahlian &amp; Minat</h2>
+
+    <article>
+      <h3>C++</h3>
+      <p>Bahasa pemrograman utama yang sedang saya pelajari dan latih secara konsisten.</p>
+    </article>
+
+    <article>
+      <h3>Problem Solving</h3>
+      <p>Terbiasa memecah masalah menjadi langkah-langkah logis sebelum menuliskannya jadi kode.</p>
+    </article>
+
+    <article>
+      <h3>Pengembangan Web</h3>
+      <p>Mulai mempelajari HTML, CSS, dan dasar-dasar pembuatan halaman web yang rapi dan aksesibel.</p>
+    </article>
+
+    <article>
+      <h3>Kreativitas &amp; Konten</h3>
+      <p>Tertarik menggabungkan sisi teknis dengan kreativitas dalam pembuatan konten digital.</p>
+    </article>
+  </section>
+
+  <section id="pendidikan" aria-labelledby="pendidikan-heading">
+    <h2 id="pendidikan-heading">Riwayat Pendidikan</h2>
+    <ol>
+      <li><strong>SD</strong> &ndash; SD Negeri 156486 Sijungkang 2</li>
+      <li><strong>SMP</strong> &ndash; SMP Negeri 3 Satu Atap Andam Dewi</li>
+      <li><strong>SMA</strong> &ndash; SMA Negeri 1 Barus</li>
+      <li><strong>S1</strong> &ndash; Universitas Negeri Medan, Program Studi Ilmu Komputer (sedang berjalan)</li>
+    </ol>
+  </section>
+
+  <section id="kontak" aria-labelledby="kontak-heading">
+    <h2 id="kontak-heading">Hubungi Saya</h2>
+
+    <form id="contact-form" novalidate>
+      <div>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama" required minlength="3">
+      </div>
+
+      <div>
+        <label for="email">Alamat Email</label><br>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="telepon">Nomor HP</label><br>
+        <input type="tel" id="telepon" name="telepon" pattern="[0-9]{10,15}" required>
+      </div>
+
+      <div>
+        <label for="tanggal">Tanggal Diskusi yang Diinginkan</label><br>
+        <input type="date" id="tanggal" name="tanggal">
+      </div>
+
+      <div>
+        <label for="prioritas">Tingkat Kepentingan Pesan (1&ndash;5)</label><br>
+        <input type="range" id="prioritas" name="prioritas" min="1" max="5" value="3">
+        <output id="prioritas-nilai" for="prioritas">3</output>
+      </div>
+
+      <div>
+        <label for="pesan">Pesan</label><br>
+        <textarea id="pesan" name="pesan" rows="5" required minlength="10"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Kirim Pesan</button>
+        <p id="form-msg" role="status" style="display:none;">Terima kasih! Pesan kamu berhasil divalidasi.</p>
+      </div>
+    </form>
+
+    <p>
+      Telepon: <a href="tel:082278343404">0822-7834-3404</a><br>
+      Email: <a href="mailto:marimarsitumeang@gmail.com">marimarsitumeang@gmail.com</a><br>
+      Instagram: <a href="https://instagram.com/marimar-S007" target="_blank" rel="noopener noreferrer">@marimar-S007</a>
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <nav aria-label="Navigasi footer">
+    <a href="#beranda">Beranda</a> |
+    <a href="#tentang">Tentang</a> |
+    <a href="#keahlian">Keahlian</a> |
+    <a href="#pendidikan">Pendidikan</a> |
+    <a href="#kontak">Kontak</a>
+  </nav>
+  <p>&copy; <time datetime="2026">2026</time> Marimar Situmeang. Dibuat dengan HTML5 semantik untuk tugas Pemrograman Web &mdash; UNIMED.</p>
+</footer>
+
+<script>
+  const prioritas = document.getElementById('prioritas');
+  const prioritasNilai = document.getElementById('prioritas-nilai');
+  prioritas.addEventListener('input', () => {
+    prioritasNilai.textContent = prioritas.value;
+  });
+
+  const form = document.getElementById('contact-form');
+  const formMsg = document.getElementById('form-msg');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (form.checkValidity()) {
+      formMsg.style.display = 'block';
+      form.reset();
+      prioritasNilai.textContent = '3';
+      setTimeout(() => { formMsg.style.display = 'none'; }, 4000);
+    } else {
+      form.reportValidity();
+    }
+  });
+</script>
+
+</body>
+</html>

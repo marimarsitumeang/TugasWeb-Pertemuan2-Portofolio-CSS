@@ -195,10 +195,10 @@ h2::before {
   margin-bottom: 4px;
 }
 
-#tentang-heading::before   { content: "// 01 — tentang saya"; }
-#keahlian-heading::before  { content: "// 02 — keahlian & minat"; }
-#pendidikan-heading::before{ content: "// 03 — riwayat pendidikan"; }
-#kontak-heading::before    { content: "// 04 — hubungi saya"; }
+#tentang-heading::before   { content: "01"; }
+#keahlian-heading::before  { content: "02"; }
+#pendidikan-heading::before{ content: "03"; }
+#kontak-heading::before    { content: "04"; }
 
 h3 {
   font-size: 1.05rem;
